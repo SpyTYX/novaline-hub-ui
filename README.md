@@ -6,6 +6,6 @@ I do not own this UI, neither have i done anything on it, this is forked off dee
 # Mercury
 
 ***Repo:*** [Click me to view Mercury Repo](https://github.com/deeeity/mercury-lib)
-***Credits:*** Deeeity, RNGF4
+(***Credits:*** Deeeity, RNGF4)
 
-# THIS UI ISNT MADE OR DEVELOPED BY ME OR NOVALINEHUB.
+## THIS UI ISNT MADE OR DEVELOPED BY ME OR NOVALINEHUB.
