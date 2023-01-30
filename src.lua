@@ -14,7 +14,7 @@
 █░░░░░░██████████░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░░░███████░░░░░░███████
 ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 
-edited: 1/26
+edited: by novaline hub
 developers:
 v3rm AbstractPoo	discord Abstract#8007
 v3rm 0xDEITY		discord Deity#0228
@@ -71,6 +71,15 @@ local Library = {
 			StrongText = Color3.fromHSV(0, 0, 1),        
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
+		Midnight = {
+			Main = Color3.fromRGB(0, 0, 0),
+			Secondary = Color3.fromRGB(10, 10, 10),
+			Tertiary = Color3.fromRGB(15, 15, 15),
+
+			StrongText = Color3.fromHSV(0, 0, 1),        
+			WeakText = Color3.fromHSV(0, 0, 172/255)
+		},
+		
 		Vaporwave = {},
 		OperaGX = {},
 		VisualStudio = {}
@@ -88,11 +97,11 @@ local Library = {
 		StrongText = {},
 		WeakText = {}
 	},
-	WelcomeText = nil,
-	DisplayName = nil,
+	WelcomeText = 'Welcome to NovalineHub!',
+	DisplayName = 'By Moons',
 	DragSpeed = 0.06,
 	LockDragging = false,
-	ToggleKey = Enum.KeyCode.Home,
+	ToggleKey = Enum.KeyCode.Delete,
 	UrlLabel = nil,
 	Url = nil
 
@@ -432,7 +441,7 @@ function Library:create(options)
 	end
 
 	options = self:set_defaults({
-		Name = "Mercury",
+		Name = "NovalineHub",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
 		Link = "https://github.com/deeeity/mercury-lib"
@@ -919,9 +928,9 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
-	creditsTab:credit{Name = "Repository", Description = "UI Library Repository", Github="https://github.com/deeeity/mercury-lib/blob/master/src.lua"}
+	creditsTab:credit{Name = "Abstract", Description = "MercuryUI Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
+	creditsTab:credit{Name = "Deity", Description = "MercuryUI Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
+	creditsTab:credit{Name = "Moons", Description = "NovalineHub Developer", Discord = "Moons#9999", V3rmillion = "Moozys"}
 
 	return mt
 end
